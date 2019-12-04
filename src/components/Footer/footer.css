@@ -1,0 +1,32 @@
+.footer_divider{
+    background-color: rgb(241, 241, 241);
+    padding:50px;
+    padding-top: 50px;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+
+.socials {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #003F7F;
+    display: flex;
+  /* background-color: #fff; */
+  justify-content: center;
+
+ 
+}
+
+.socials a{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #003F7F;
+    display: flex;
+  /* background-color: #fff; */
+
+ 
+}

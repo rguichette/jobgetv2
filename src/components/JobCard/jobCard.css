@@ -1,0 +1,18 @@
+.job_card{
+    /* background-color: aqua; */
+    border:  1px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    /* flex-shrink: 1; */
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin: 12px;
+    height: 205px;
+    /* min-width: 175px;  */
+    width: 250px;
+    max-width: 300px;
+
+
+}

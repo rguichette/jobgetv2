@@ -1,0 +1,28 @@
+
+
+.videoPopUp{
+
+
+    position: fixed;
+
+    
+    width: 100%; 
+   height: 100%;
+ 
+    top: 0;
+    
+    margin: 0;
+    z-index: 1000;
+    
+}
+#actual_vid{
+position: absolute;
+/* padding-top: 20px; */
+}
+
+#exit_btn{
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+

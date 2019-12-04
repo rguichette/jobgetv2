@@ -1,0 +1,24 @@
+.job_list_container{
+    min-height: 300px;
+    max-width: 950px;
+    /* background-color: rgb(210, 201, 211); */
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 95px;
+    display: flex;
+
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+   
+}
+
+.job_list_sub{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

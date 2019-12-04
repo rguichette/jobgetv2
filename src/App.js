@@ -1,25 +1,55 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams
+} from "react-router-dom";
+
+import { Provider } from 'react-redux'
+import configureStore from './store';
+import HomePage from './components/Home/HomePage';
+import CareerApp from './components/CareerApp';
+
+
+
+
+
+
+
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+    <Provider store={configureStore()}>
+       
+      <Router>
+ 
+{ 
+  <div>
+  <Route exact path="/job_application" render={(props) => (<CareerApp {...props}/>)} />
+
+   <Route path="/job_application/:id" render={(props) => (<CareerApp {...props}/>)} />
+   </div>
+}
+
+
+<Route exact path="/" component={HomePage} />
+
+
+
+  </Router>
+  
+
+
+
+
+    </Provider>
+    
   );
 }
 

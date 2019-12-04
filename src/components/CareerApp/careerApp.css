@@ -1,0 +1,105 @@
+
+.careerApp{
+
+    /* height: 100vh; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* background-color: #eec; */
+  
+}
+.job_title_space{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height:200px;
+justify-content: center;
+align-items: center;
+align-content: center;
+padding: 0;
+border-bottom: 1px solid #ccc;
+margin-bottom: 75px;
+
+
+}
+
+.job_title_space p {
+    display: flex;
+   flex: 3;
+height: 100%;
+align-content: center;
+align-items: center;
+margin-bottom: 0;
+margin-top: 0;
+margin-left: 50px;
+font-size: 30px;
+font-weight: 500;
+}
+.job_title_space a{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+align-content: center;
+align-items: center;
+color: blue;
+
+}
+
+.job_details{
+    /* margin-bottom: 70px; */
+
+}
+
+
+.application_form{
+    /* overflow: scroll;
+
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+    max-height: 700px;
+
+background-color: #fff;
+flex: 1; */
+}
+
+
+.careerApp{
+/* background-color: rgb(218, 98, 218); */
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+
+}
+
+.application_form_container{
+/* background-color: #fff; */
+flex: 1;
+flex-grow: 1;
+min-height: 500px;
+/* max-height: 950px; */
+margin-top: 5px;
+padding-top: 50px;
+overflow: scroll;
+margin-bottom: 100px;
+max-width: 700px;
+border-top: 1px solid #ccc;
+}
+
+.application_form{
+    /* background-color: #cee; */
+    max-height: 900px;
+    min-height: 400px;
+    overflow: scroll;
+}
+
+.job_extras{
+    margin-left: 50px;
+    margin-right: 50px;  
+}
+.detail{
+    max-width: 500px;
+}
+.detail :first-child{
+    font-weight: 500;
+    font-size: 18px;
+}
